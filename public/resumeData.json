@@ -1,0 +1,224 @@
+{
+  "main": {
+    "name": "Glad Cedeño",
+    "occupation": "Software Engineer / Scrum Master / Wanderer / Cook",
+    "description": "",
+    "image": "profilepic.jpg",
+    "firstname": "firstname.png",
+    "surname": "surname.png",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "glad.cedeno@gmail.com",
+    "phone": "+1 (818) 984-4239",
+    "address": {
+      "street": "(Your Street)",
+      "city": "(Your City)",
+      "state": "(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "bio": [
+      { "bioItem" : "My full name is Gladwin Louise G. Cedeño."},
+      { "bioItem" : "I am currently a freelancer and an online business owner."},
+      { "bioItem" : "I used to be the CTO of GoGoBaon and Wanderdeals."},
+      { "bioItem" : "I worked in Japan for a year as an Embedded Systems Engineer."},
+      { "bioItem" : "I worked in American Express Hong Kong as an Engineer."},
+      { "bioItem" : "I worked for various companies in the Philippines as front-end web developer."},
+      { "bioItem" : "I try my best to learn more about Investing, Cryptocurrencies, Blockchain and NFTs."},
+      { "bioItem" : "I can read, write and speak in Filipino (Native), English (Fluent) and Japanese (Intermediate)"},
+      { "bioItem" : "I like to discover new places and learn different cultures during my free time."},
+      { "bioItem" : "I take a snap of almost every little thing and precious moments happening around me."},
+      { "bioItem" : "I love to cook for people."}
+    ],    
+    "website": "http://www.gladcedeno.com",
+    "resumedownload": "Resume_GladwinLouiseCedeno.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/gladcedeno/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/gladgallivants",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/blueazulbughaw",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "California Trinity School of Business",
+        "degree": "Masters in Business Administration",
+        "graduated": "July 2022 - Current"
+      },
+      {
+        "school": "Mapua Institute of Technology",
+        "degree": "Bachelor of Science in Computer Engineering",
+        "graduated": "July 2002 - April 2007"
+      }
+    ],
+    "work": [
+      {
+        "company": "Online Business Owner and Freelancer",
+        "title": "Self-Employed",
+        "years": "September 2020 - Present",
+        "place": ""
+      },
+      {
+        "company": "American Express",
+        "title": "Engineer / Scrum Master",
+        "years": "May 2016 - Feb-2021",
+        "place": "Hong Kong"
+      },
+      {
+        "company": "Freelance Web Developer",
+        "title": "Self-Employed",
+        "years": "August 2014 - May 2016",
+        "place": "Hong Kong"
+      },
+      {
+        "company": "Northgate Arinso",
+        "title": "Front-End Web Developer",
+        "years": "March 2011 - August 2014",
+        "place": "Ortigas, Quezon City, Philippines"
+      },
+      {
+        "company": "MozCom",
+        "title": "Web Developer",
+        "years": "March 2009 - March 2011",
+        "place": "Makati, Philippines"
+      },
+      {
+        "company": "Digital Information Technology",
+        "title": "Embedded Sytems Engineer",
+        "years": "March 2008 - December 2008",
+        "place": "Kawasaki, Japan"
+      }
+    ],
+    "business": [
+      {
+        "company": "GoGoBaon",
+        "title": "CTO, Food Business Start-Up",
+        "years": "May 2018 - July 2019",
+        "url": "https://www.instagram.com/gogobaon/"
+      },
+      {
+        "company": "Wanderdeals",
+        "title": "CTO, Travel Business Start-Up",
+        "years": "(May 2016 - July 2017)",
+        "url": "https://www.wanderdeals.com/"
+    }
+  ],    
+    "techskills": [
+      {
+        "name": "Git",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "Bootstrap",
+        "className": "fa fa-bootstrap"
+      },
+      {
+        "name": "ReactJs",
+        "className": "fa fa-git"
+      },
+      {
+        "name": "CSS",
+        "className": "fa fa-css3"
+      },
+      {
+        "name": "HTML5",
+        "className": "fa fa-html5"
+      },
+      {
+        "name": "React JS",
+        "className": "fa fa-react"
+      },
+      {
+        "name": "MongoDB",
+        "className": "fa fa-git"
+      }
+    ],
+    "mngtskills": [
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Illustrator",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "VueJs",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      }
+    ]    
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "https://drive.google.com/open?id=19HuEjzR_fqlvRJ8CzPwqAlevgyMJ3x6H"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
