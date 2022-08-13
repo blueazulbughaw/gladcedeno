@@ -49,6 +49,7 @@
       { "bioItem" : "I'm a Filipino."},
       { "bioItem" : "I'm LA based, Philippine born and Japan & HK former expat."},
       { "bioItem" : "I'm a little bit of everything rolled into one."}
+      
     ],    
     "website": "http://www.gladcedeno.com",
     "resumedownload": "Resume_GladwinLouiseCedeno.pdf",
@@ -76,12 +77,14 @@
       {
         "school": "California Trinity School of Business",
         "degree": "Masters in Business Administration",
-        "graduated": "July 2022 - Current"
+        "graduated": "July 2022 - Current",
+        "url": "https://www.catu.edu/"
       },
       {
         "school": "Mapua Institute of Technology",
         "degree": "Bachelor of Science in Computer Engineering",
-        "graduated": "July 2002 - April 2007"
+        "graduated": "July 2002 - April 2007",
+        "url": "https://www.mapua.edu.ph/"
       }
     ],
     "work": [
@@ -89,38 +92,65 @@
         "company": "Online Business Owner and Freelancer",
         "title": "Self-Employed",
         "years": "September 2020 - Present",
-        "place": ""
+        "place": "Manila, Philippines",
+        "url": "www.gladcedeno.com"
       },
       {
         "company": "American Express",
         "title": "Engineer / Scrum Master",
-        "years": "May 2016 - Feb-2021",
-        "place": "Hong Kong"
+        "years": "May 2016 - February-2021",
+        "place": "Tai Koo, Hong Kong",
+        "url": "https://www.americanexpress.com/en-hk/"
       },
       {
         "company": "Freelance Web Developer",
         "title": "Self-Employed",
         "years": "August 2014 - May 2016",
-        "place": "Hong Kong"
+        "place": "Manila, Philippines",
+        "url": "www.gladcedeno.com"
+      },
+      {
+        "company": "Netsuite Philippines",
+        "title": "Web Support Engineer",
+        "years": "December 2014 - May 2015",
+        "place": "Makati, Philippines",
+        "url": "https://www.netsuite.com.ph/ "
       },
       {
         "company": "Northgate Arinso",
         "title": "Front-End Web Developer",
         "years": "March 2011 - August 2014",
-        "place": "Ortigas, Quezon City, Philippines"
+        "place": "Ortigas, Philippines",
+        "url": "https://www.ngahr.com/"
       },
       {
         "company": "MozCom",
         "title": "Web Developer",
-        "years": "March 2009 - March 2011",
-        "place": "Makati, Philippines"
+        "years": "August 2009 - March 2011",
+        "place": "Makati, Philippines",
+        "url": ""
       },
+      {
+        "company": "Hewlett-Packard Philippines",
+        "title": "SAP Support Engineer",
+        "years": "May 2009 - August 2009",
+        "place": "Makati, Philippines",
+        "url": "https://www.hp.com/ph-en/home.html"
+      },      
       {
         "company": "Digital Information Technology",
         "title": "Embedded Sytems Engineer",
         "years": "March 2008 - December 2008",
-        "place": "Kawasaki, Japan"
-      }
+        "place": "Kawasaki, Japan",
+        "url": "https://www.ditgroup.jp/english/"
+      },
+      {
+        "company": "Oracle Philippines",
+        "title": "Bootcamp Trainee",
+        "years": "July 2007 - September 2007",
+        "place": "Taguig, Philippines",
+        "url": "https://www.oracle.com/ph/corporate/contact/"
+      }      
     ],
     "business": [
       {
