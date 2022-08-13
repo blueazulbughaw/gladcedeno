@@ -256,7 +256,9 @@ ul#nav li.current a { color: #11ABB0; }
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 18px/24px 'opensans-bold', sans-serif;
+   color: #000;
+   margin-bottom:0px;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -271,7 +273,7 @@ ul#nav li.current a { color: #11ABB0; }
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
-   margin-top: 9px;
+   margin-top: 0px;
 }
 #resume .info span {
    margin-right: 5px;
