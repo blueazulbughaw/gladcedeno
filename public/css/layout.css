@@ -220,7 +220,7 @@ ul#nav li.current a { color: #11ABB0; }
 /*floating download resume*/
 #about .button, .button:visited, .button:active, .button:focus{
    position : fixed;
-   bottom:20px;
+   bottom:10px;
    right:20px;
    border: solid 1px #fff;
    color: #fff;
@@ -231,6 +231,11 @@ ul#nav li.current a { color: #11ABB0; }
    color: #313131;
    background-color: #11ABB0;
    }
+/*about list*/
+#about ul { list-style: outside; }  
+#about li {line-height: 16px;margin-bottom: 8px;}
+/*title*/
+#about .section-head { padding-left:40%; margin-bottom: 42px; }
 
 
 /* ------------------------------------------------------------------ */
@@ -290,6 +295,8 @@ ul#nav li.current a { color: #11ABB0; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+/*title*/
+#resume .section-head { padding-left:40%; margin-bottom: 42px; }
 
 /*----------------------------------------------*/
 /*	Skill Bars
@@ -809,7 +816,7 @@ call-to-action .button {
    padding-bottom: 102px;
    color: #636363;
 }
-#contact .section-head { margin-bottom: 42px; }
+#contact .section-head { padding-left:30%; margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: #11ABB0; }
 #contact a:hover, #contact a:focus { color: #fff; }
@@ -846,7 +853,7 @@ call-to-action .button {
 
 
 /* contact form */
-#contact form { margin-bottom: 30px; }
+#contact form { margin-bottom: 30px; margin-left:15px; margin-right: 15px;}
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
