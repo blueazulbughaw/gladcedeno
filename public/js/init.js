@@ -149,7 +149,7 @@
       var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
                '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
 
-      $.ajax({
+     /* $.ajax({
 
 	      type: "POST",
 	      url: "inc/sendEmail.php",
@@ -173,6 +173,31 @@
 	      }
 
       });
+*/
+
+var transporter = nodemailer.createTransport({
+   service: 'gmail',
+   auth: {
+     user: 'glad.cedeno@gmail.com',
+     pass: 'Blessed2022!GM'
+   }
+ });
+ 
+ var mailOptions = {
+   from: {contactEmail},
+   to: 'glad.cedeno@gmail.com',
+   subject: 'From Website : '+{contactSubject},
+   text: {contactName}+' wrote : '+{contactMessage}
+ };
+ 
+ transporter.sendMail(mailOptions, function(error, info){
+   if (error) {
+     console.log(error);
+   } else {
+     console.log('Email sent: ' + info.response);
+   }
+ });
+
       return false;
    });
 
