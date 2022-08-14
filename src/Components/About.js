@@ -23,14 +23,16 @@ class About extends Component {
 
     return (
       <section id="about">
+         <div className="row section-head">
+         <h2><span>About Me</span></h2>
+   </div>         
       <div className="row">
          <div className="three columns">
             <img className="profile-pic"  src={profilepic} alt="Glad Cedeno Profile Pic" />
          </div>
          <div className="nine columns main-col">
-            <h2>About Me</h2>
 
-            <p>{bio}</p>
+            <ul><p>{bio}</p></ul>
          </div>
 
       </div> 

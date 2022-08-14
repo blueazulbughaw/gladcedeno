@@ -38,19 +38,10 @@ class Resume extends Component {
 
     return (
       <section id="resume">
-  
-         <div className="row">
-      
-      <div className="three columns header-col">
-      </div>
 
-      <div className="nine columns main-col">
-         <div className="row columns item">
-         <h2><span>Résumé</span></h2>
+         <div className="row section-head">
+         <h2><span>Résumé</span></h2>                  
          </div>
-      </div>
-   </div>         
-         
       <div className="row education">
       
          <div className="three columns header-col">

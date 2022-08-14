@@ -19,12 +19,6 @@ class Contact extends Component {
 
          <div className="row section-head">
          <h2>Got anything to say?</h2>
-            <div className="two columns header-col">
-
-
-            </div>
-
-
          </div>
 
          <div className="row">
