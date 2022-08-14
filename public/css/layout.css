@@ -194,7 +194,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+/*#about a:hover, #about a:focus { color: #11ABB0; }*/
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -217,19 +217,20 @@ ul#nav li.current a { color: #11ABB0; }
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
-#about .download .button {
-   margin-top: 6px;
-   background: #11ABB0;
+/*floating download resume*/
+#about .button, .button:visited, .button:active, .button:focus{
+   position : fixed;
+   bottom:20px;
+   right:20px;
+   border: solid 1px #fff;
    color: #fff;
-}
-#about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
-}
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
-}
+   background-color: #11ABB0 !important;
+   }
+   
+   #about .button:hover{
+   color: #313131;
+   background-color: #11ABB0;
+   }
 
 
 /* ------------------------------------------------------------------ */
@@ -254,6 +255,12 @@ ul#nav li.current a { color: #11ABB0; }
 #resume h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
+}
+#resume h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #313131;
+   padding-bottom: 30px;
+   margin-bottom: 12px;
 }
 #resume h3 {
    font: 18px/24px 'opensans-bold', sans-serif;
