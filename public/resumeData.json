@@ -93,7 +93,7 @@
         "title": "Self-Employed",
         "years": "September 2020 - Present",
         "place": "Manila, Philippines",
-        "url": "/"
+        "url": "www.gladcedeno.com"
       },
       {
         "company": "American Express",
@@ -107,7 +107,7 @@
         "title": "Self-Employed",
         "years": "August 2014 - May 2016",
         "place": "Manila, Philippines",
-        "url": "/"
+        "url": "www.gladcedeno.com"
       },
       {
         "company": "Netsuite Philippines",
@@ -166,7 +166,9 @@
         "url": "https://www.wanderdeals.com/"
     }
   ],    
-    "techskills": [
+    "techskills": {
+      "skillmessage" : "HTML5, CSS3, Bootstrap,  C/C++, JSP, PHP, javascript, JSON, AJAX, XML, React JS, React Native, jQuery, Prototype JS, Git, Tortoise SVN, Clarity, JIRA, Sharepoint, Confluence, ServiceNow, Adobe Enterprise Management (AEM),  Machine Learning, Cookie Privacy, Wordpress, Drupal, Shopify, SAP, COBOL, Salesforce, Netsuite, Adobe Photoshop",
+      "skills"  : [
       {
         "name": "Git",
         "className": "fa fa-github"
@@ -195,8 +197,11 @@
         "name": "MongoDB",
         "className": "fa fa-git"
       }
-    ],
-    "mngtskills": [
+    ]
+  },
+    "mngtskills": {
+      "skillmessage" : "Clarity, Communication, Coordination, Analytical and Problem-solving, Risk Management, Organizational Management, Planning, Forecasting, Monitoring, Portfolio Management, Software Development Life Cycle (SDLC), DevOps, Leadership",
+      "skills" : [
       {
         "name": "Git",
         "level": "60%"
@@ -225,7 +230,8 @@
         "name": "MongoDB",
         "level": "80%"
       }
-    ]    
+    ]
+  }  
   },
   "portfolio": {
     "projects": [
