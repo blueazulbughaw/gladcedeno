@@ -77,7 +77,7 @@
       {
         "school": "California Trinity School of Business",
         "degree": "Masters in Business Administration",
-        "graduated": "July 2022 - Current",
+        "graduated": "July 2022 - Present",
         "url": "https://www.catu.edu/"
       },
       {
@@ -167,7 +167,7 @@
     }
   ],    
     "techskills": {
-      "skillmessage" : "HTML5, CSS3, Bootstrap,  C/C++, JSP, PHP, javascript, JSON, AJAX, XML, React JS, React Native, jQuery, Prototype JS, Git, Tortoise SVN, Clarity, JIRA, Sharepoint, Confluence, ServiceNow, Adobe Enterprise Management (AEM),  Machine Learning, Cookie Privacy, Wordpress, Drupal, Shopify, SAP, COBOL, Salesforce, Netsuite, Adobe Photoshop",
+      "skillmessage" : "HTML5, CSS3, Bootstrap,  C/C++, JSP, PHP, javascript, JSON, AJAX, XML, React JS, React Native, jQuery, Prototype JS, Git, Tortoise SVN, Clarity, JIRA, Sharepoint, Confluence, ServiceNow, Adobe Enterprise Management (AEM),  Machine Learning, Cookie Privacy, Wordpress, Drupal, Shopify, SAP, COBOL, Salesforce, Netsuite, Google Workspace, Microsoft Office, Windows OS, Windows OS, Linux OS, Adobe Photoshop",
       "skills"  : [
       {
         "name": "Git",
@@ -200,7 +200,7 @@
     ]
   },
     "mngtskills": {
-      "skillmessage" : "Clarity, Communication, Coordination, Analytical and Problem-solving, Risk Management, Organizational Management, Planning, Forecasting, Monitoring, Portfolio Management, Software Development Life Cycle (SDLC), DevOps, Leadership",
+      "skillmessage" : "Clarity, Budgeting, Communication, Coordination, Analytical and Problem-solving, Risk Management, Organizational Management, Planning, Forecasting, Monitoring, Presentation, Portfolio Management, Software Development Life Cycle (SDLC), DevOps, Leadership",
       "skills" : [
       {
         "name": "Git",
