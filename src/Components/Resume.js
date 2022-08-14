@@ -24,19 +24,35 @@ class Resume extends Component {
         </div>
       })      
       
-      var techskills = this.props.data.techskills.map(function(techskills){
+      var techskills = this.props.data.techskills.skills.map(function(techskills){
         return <div key={techskills.name}><div>{techskills.name}</div><i class={techskills.className}></i></div>
       })
-      var mngtskills = this.props.data.mngtskills.map(function(mngtskills){
+      var techskillsMessage = this.props.data.techskills.skillmessage;
+      var mngtskills = this.props.data.mngtskills.skills.map(function(mngtskills){
         var className = 'bar-expand '+mngtskills.name.toLowerCase();
         return <li key={mngtskills.name}><span style={{width:mngtskills.level}}className={className}></span><em>{mngtskills.name}</em></li>
-      })      
+      })
+      var mngtskillsMessage = this.props.data.mngtskills.skillmessage;    
+
     }
 
     return (
       <section id="resume">
+  
+         <div className="row">
+      
+      <div className="three columns header-col">
+      </div>
 
+      <div className="nine columns main-col">
+         <div className="row columns item">
+         <h2><span>Résumé</span></h2>
+         </div>
+      </div>
+   </div>         
+         
       <div className="row education">
+      
          <div className="three columns header-col">
             <h1><span>Education</span></h1>
          </div>
@@ -71,9 +87,6 @@ class Resume extends Component {
           {work}
         </div>
     </div>
-
-
-
       <div className="row skill">
 
          <div className="three columns header-col">
@@ -82,9 +95,7 @@ class Resume extends Component {
 
          <div className="nine columns main-col">
 
-            <p>HTML, CSS, Bootstrap,  C/C++, JSP, PHP, javascript, JSON, AJAX, XML, React JS, React Native, jQuery, Prototype JS, Git, Tortoise SVN, Adobe Enterprise Management (AEM),  Machine Learning, Cookie Privacy, Wordpress, Drupal, Shopify, SAP, COBOL, Adobe Photoshop
-            </p>
-
+            <p>{techskillsMessage}</p>
 				<div >
 				</div>
 			</div>
@@ -96,11 +107,11 @@ class Resume extends Component {
          </div>
 
          <div className="nine columns main-col">
-
-            <p>Clarity, JIRA, Sharepoint, Confluence, ServiceNow, Communication, Coordination, Analytical and Problem-solving Issues, Organizational Management, Planning, Forecasting, Monitoring, Portfolio Management, Software Development Life, Cycle (SDLC), DevOps.
-            </p>
+            <p>{mngtskillsMessage}</p>
 			</div>
-      </div>      
+     
+      </div>    
+      
    </section>
     );
   }
