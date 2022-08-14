@@ -73,7 +73,8 @@ header .banner-text h3 {
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #fff;
+   font-family: monospace;
+   color: #333;
 }
 header .banner-text hr {
    width: 60%;
