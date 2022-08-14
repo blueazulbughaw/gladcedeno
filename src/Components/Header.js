@@ -36,7 +36,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
          <img className="profile-pic"  src={firstname} alt="Firstname" /><img className="profile-pic"  src={surname} alt="Surname" />
-            <h3>I'm a <span>{occupation}</span>.</h3>
+            <h3><span>{occupation}</span>.</h3>
             <hr />
             <ul className="social">
                {networks}
