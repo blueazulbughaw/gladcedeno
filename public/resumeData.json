@@ -34,9 +34,10 @@
       { "bioItem" : "I'm a film buff."}, 
       { "bioItem" : "I'm an anime, kdrama and US series leisure watcher"},
       { "bioItem" : "I'm a Rubix cube and puzzles enthusiast."},
-      { "bioItem" : "I'm a Sherlock Holmes Admirer."},
-      { "bioItem" : "I'm Chris Evan's secret lover.;) "},
+      { "bioItem" : "I'm a Sherlock Holmes admirer."},
+      { "bioItem" : "I'm Chris Evan's secret lover ♥. "},
       { "bioItem" : "I'm a weeaboo."},
+       { "bioItem" : "I'm an ambivert."},
       { "bioItem" : "I'm a self-proclaimed mermaid."},
       { "bioItem" : "I'm a frustrated drummer."},
       { "bioItem" : "I'm a novice calligrapher."},
@@ -48,6 +49,7 @@
       { "bioItem" : "I'm a #MeToo supporter."},
       { "bioItem" : "I'm a Filipino."},
       { "bioItem" : "I'm LA based, Philippine born and Japan & HK former expat."},
+      { "bioItem" : "I'm a Christian."},
       { "bioItem" : "I'm a little bit of everything rolled into one."}
       
     ],    
