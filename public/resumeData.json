@@ -168,8 +168,41 @@
         "url": "https://www.wanderdeals.com/"
     }
   ],    
+"expertise": {
+      "skillmessage" : "HTML5, CSS3, Bootstrap, C/C++, JSP, PHP, javascript, JSON, AJAX, XML, React JS, React Native, jQuery, Prototype JS, Git, Tortoise SVN, Clarity, JIRA, Sharepoint, Confluence, ServiceNow, Adobe Enterprise Management (AEM)",
+      "skills"  : [
+      {
+        "name": "Git",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "Bootstrap",
+        "className": "fa fa-bootstrap"
+      },
+      {
+        "name": "ReactJs",
+        "className": "fa fa-git"
+      },
+      {
+        "name": "CSS",
+        "className": "fa fa-css3"
+      },
+      {
+        "name": "HTML5",
+        "className": "fa fa-html5"
+      },
+      {
+        "name": "React JS",
+        "className": "fa fa-react"
+      },
+      {
+        "name": "MongoDB",
+        "className": "fa fa-git"
+      }
+    ]
+  },    
     "techskills": {
-      "skillmessage" : "HTML5, CSS3, Bootstrap,  C/C++, JSP, PHP, javascript, JSON, AJAX, XML, React JS, React Native, jQuery, Prototype JS, Git, Tortoise SVN, Clarity, JIRA, Sharepoint, Confluence, ServiceNow, Adobe Enterprise Management (AEM),  Machine Learning, Cookie Privacy, Wordpress, Drupal, Shopify, SAP, COBOL, Salesforce, Netsuite, Google Workspace, Microsoft Office, Windows OS, Windows OS, Linux OS, Adobe Photoshop",
+      "skillmessage" : "JSP, PHP, Java JSON, AJAX, XML, jQuery, Prototype JS, Tortoise SVN, Sharepoint, Confluence, ServiceNow, Machine Learning, Cookie Privacy, Wordpress, Drupal, Shopify, SAP, COBOL, Salesforce, Netsuite, Google Workspace, Microsoft Office, Windows OS, Windows OS, Linux OS, Stripe, Adobe Photoshop",
       "skills"  : [
       {
         "name": "Git",
@@ -202,7 +235,7 @@
     ]
   },
     "mngtskills": {
-      "skillmessage" : "Clarity, Budgeting, Communication, Coordination, Analytical and Problem-solving, Risk Management, Organizational Management, Planning, Forecasting, Monitoring, Presentation, Portfolio Management, Software Development Life Cycle (SDLC), DevOps, Leadership",
+      "skillmessage" : "Agile Project Management, Scrum, Rally, Clarity, Communication, Coordination, Analytical and Problem-solving, Risk Management, Organizational Management, Planning, Forecasting, Monitoring, Budgeting, Portfolio Management, Software Development Life Cycle (SDLC), DevOps, Leadership",
       "skills" : [
       {
         "name": "Git",
