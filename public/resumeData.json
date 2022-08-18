@@ -169,7 +169,7 @@
     }
   ],    
 "expertise": {
-      "skillmessage" : "HTML5, CSS3, Bootstrap, C/C++, JSP, PHP, javascript, JSON, AJAX, XML, React JS, React Native, jQuery, Prototype JS, Git, Tortoise SVN, Clarity, JIRA, Sharepoint, Confluence, ServiceNow, Adobe Enterprise Management (AEM)",
+      "skillmessage" : "HTML5, CSS3, Bootstrap, C/C++, JSP, PHP, javascript, JSON, AJAX, XML, React JS, React Native, jQuery, Prototype JS, Git, Tortoise SVN, JIRA, Confluence, Adobe Enterprise Management (AEM), Wordpress",
       "skills"  : [
       {
         "name": "Git",
@@ -202,7 +202,7 @@
     ]
   },    
     "techskills": {
-      "skillmessage" : "JSP, PHP, Java JSON, AJAX, XML, jQuery, Prototype JS, Tortoise SVN, Sharepoint, Confluence, ServiceNow, Machine Learning, Cookie Privacy, Wordpress, Drupal, Shopify, SAP, COBOL, Salesforce, Netsuite, Google Workspace, Microsoft Office, Windows OS, Windows OS, Linux OS, Stripe, Adobe Photoshop",
+      "skillmessage" : "JSP, PHP, Java, ServiceNow, Machine Learning, Cookie Privacy, Drupal, Shopify, SAP, COBOL, Salesforce, Netsuite, Google Workspace, Microsoft Office, Windows OS, Windows OS, Linux OS, Stripe, Adobe Photoshop",
       "skills"  : [
       {
         "name": "Git",
