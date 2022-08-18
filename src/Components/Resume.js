@@ -28,6 +28,7 @@ class Resume extends Component {
         return <div key={techskills.name}><div>{techskills.name}</div><i class={techskills.className}></i></div>
       })
       var techskillsMessage = this.props.data.techskills.skillmessage;
+      var expertise = this.props.data.expertise.skillmessage;
       var mngtskills = this.props.data.mngtskills.skills.map(function(mngtskills){
         var className = 'bar-expand '+mngtskills.name.toLowerCase();
         return <li key={mngtskills.name}><span style={{width:mngtskills.level}}className={className}></span><em>{mngtskills.name}</em></li>
@@ -78,6 +79,19 @@ class Resume extends Component {
           {work}
         </div>
     </div>
+    <div className="row skill">
+
+<div className="three columns header-col">
+   <h1><span>Expertise/span></h1>
+</div>
+
+<div className="nine columns main-col">
+
+   <p>{expertise}</p>
+   <div >
+   </div>
+</div>
+</div>
       <div className="row skill">
 
          <div className="three columns header-col">
