@@ -167,7 +167,21 @@
         "years": "(May 2016 - July 2017)",
         "url": "https://www.wanderdeals.com/"
     }
-  ],    
+  ],  
+  "certificates": [
+    {
+      "title": "Google Project Management Course Certification"
+    },
+    {
+      "title": "1 of 2 Hackathon local campus winner out of 8 teams"
+    },
+    {
+      "title": "Sun Certified Java Programmer 1.4"
+    },
+    {
+      "title": "Japanese Language Proficiency Test  (JLPT) - Level 3 (Dec 2008)  "
+    } 
+],    
 "expertise": {
       "skillmessage" : "HTML5, CSS3, Bootstrap, C/C++, JSP, PHP, javascript, JSON, AJAX, XML, React JS, React Native, jQuery, Prototype JS, Git, Tortoise SVN, JIRA, Confluence, Adobe Enterprise Management (AEM), Wordpress",
       "skills"  : [
