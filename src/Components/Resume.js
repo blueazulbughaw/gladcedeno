@@ -22,7 +22,12 @@ class Resume extends Component {
         return <div key={business.company}><h3><a target="_blank" href={business.url}>{business.company}</a></h3>
             <p className="info"><b>{business.title}</b><span>&bull;</span> <em className="date">{business.years}</em></p>
         </div>
-      })      
+      })   
+      
+      var certificates = this.props.data.certificates.map(function(certificates){
+         return <div key={certificates.title}><li>{certificates.title}</li>
+         </div>
+       })         
       
       var techskills = this.props.data.techskills.skills.map(function(techskills){
         return <div key={techskills.name}><div>{techskills.name}</div><i class={techskills.className}></i></div>
@@ -79,6 +84,18 @@ class Resume extends Component {
           {work}
         </div>
     </div>
+
+    <div className="row work">
+
+<div className="three columns header-col">
+   <h1><span>Achievements</span></h1>
+</div>
+
+<div className="nine columns main-col">
+ {certificates}
+</div>
+</div>
+
     <div className="row skill">
 
 <div className="three columns header-col">
