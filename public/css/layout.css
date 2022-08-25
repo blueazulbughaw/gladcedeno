@@ -227,6 +227,7 @@ ul#nav li.current a { color: #11ABB0; }
    border: solid 1px #fff;
    color: #fff;
    background-color: #11ABB0 !important;
+   z-index: 5;
    }
    
    #about .button:hover{
